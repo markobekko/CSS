@@ -277,6 +277,13 @@ hr{border:0;border-top:20px solid #eee;margin:20px 0}
 	color: #86ec93;
 	border-color: #86ec93;
 }
+
+.background_color_lb{
+	background-color:#87CEEB;
+}
+
+
+
 .transparent_btn.green:hover {
 	background-color: rgba(134, 236, 147, 0.3);
 }
