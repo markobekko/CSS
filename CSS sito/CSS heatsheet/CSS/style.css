@@ -276,6 +276,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .transparent_btn.green:hover {
 	background-color: rgba(134, 236, 147, 0.3);
 }
+.google{
+	width:100%;
+}
+.background_color_lb{
+	background-color:#87CEEB;
+}
 @media screen and (max-width: 600px) {
   body {
      background-color: lightblue;
