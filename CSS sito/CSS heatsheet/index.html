@@ -34,8 +34,34 @@ background-position: center;
 background-size: cover;
 }
 </style>
-
 <body>
+  <script type="text/javascript">
+
+    function add_e_handler(obj, e, func){
+        //test if func exists - prevents problems in IE
+        if(typeof func != "undefined"){     
+            if(obj.attachEvent){
+                 obj.attachEvent('on' + e, func);
+            }else if(obj.addEventListener){
+                obj.addEventListener(e, func, false);
+            }else{
+                obj['on' + e] = func;
+            }
+       }
+    }
+
+    add_e_handler(window,'load'function(){
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|blackberry|android 0.5|htc|lg|midp|mmp|mobile|nokia|opera mini|palm|pocket|psp|sgh|smartphone|symbian|treo mini|Playstation Portable|SonyEricsson|Samsung|MobileExplorer|PalmSource|Benq|Windows Phone|Windows Mobile|IEMobile|Windows CE|Nintendo Wii)/i);
+
+        if(isMobile){
+            document.getElementById('mobile').style.display = 'block';
+            $type: monster;
+        }else{
+            document.getElementById('mobile').style.display = 'none';
+        }
+    });
+</script>
+
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button">Studio 54</a>
@@ -86,6 +112,11 @@ background-size: cover;
     </div>
     <div class="w3-bottom">
   </div>
-
+  <script src ="detectmobile.js"></script>
+  <script>
+   if(isMobile == true){
+    header('Location: http://192.168.0.106/prodotti1.html');
+   }
+  </script>
 </body>
 </html>
