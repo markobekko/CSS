@@ -102,23 +102,23 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .w3-display-topleftA{position:absolute;left:41.5%;top:20%}
 .w3-display-bottomleftA{position:absolute;left:0;bottom:0}
-.w3-display-middleA{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
-.w3-display-foto1{position:absolute;top:90%;left:12%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
-.w3-display-foto2{position:absolute;top:120%;left:88%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
-.w3-display-foto3{position:absolute;top:160%;left:12%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-aveda{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-prodotto1{position:absolute;top:90%;left:12%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-prodotto2{position:absolute;top:120%;left:88%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-prodotto3{position:absolute;top:160%;left:12%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 .w3-display-scritta1{position:absolute;left:25%;top:60%}
-.w3-display-scritta1A{position:absolute;left:25%;top:68%}
-.w3-display-scritta1B{position:absolute;left:25%;top:72%}
-.w3-display-scritta1C{position:absolute;left:25%;top:76%}
-.w3-display-scritta1D{position:absolute;left:25%;top:80%}
+.w3-display-scritta1a{position:absolute;left:25%;top:68%}
+.w3-display-scritta1b{position:absolute;left:25%;top:72%}
+.w3-display-scritta1c{position:absolute;left:25%;top:76%}
+.w3-display-scritta1d{position:absolute;left:25%;top:80%}
 .w3-display-scritta2{position:absolute;left:54%;top:100%}
-.w3-display-scritta2A{position:absolute;left:62%;top:106%}
-.w3-display-scritta2B{position:absolute;left:62%;top:109%}
-.w3-display-scritta2BA{position:absolute;left:62.5%;top:112%}
+.w3-display-scritta2a{position:absolute;left:62%;top:106%}
+.w3-display-scritta2b{position:absolute;left:62%;top:109%}
+.w3-display-scritta2ba{position:absolute;left:62.5%;top:112%}
 .w3-display-scritta3{position:absolute;left:25%;top:140%}
-.w3-display-scritta3A{position:absolute;left:25%;top:146%}
-.w3-display-scritta3B{position:absolute;left:25%;top:150%}
-.w3-display-scritta3C{position:absolute;left:25%;top:154%}
+.w3-display-scritta3a{position:absolute;left:25%;top:146%}
+.w3-display-scritta3b{position:absolute;left:25%;top:150%}
+.w3-display-scritta3c{position:absolute;left:25%;top:154%}
 .w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 .w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
