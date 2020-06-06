@@ -1,78 +1,115 @@
 <!DOCTYPE html>
 <html>
-<title></title>
+<title>Studio54</title>
+<head><!-- Global site tag (gtag.js) - Google Analytics -->
+
+<link rel="icon" href="images/favicon.ico" />
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166862436-1');
+</script>
+</head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12324907/0/e03593e4/0/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
 <style>
-	/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 body,h1 {font-family: "Arial", sans-serif}
 body, html {height: 100%}
-.bgimg {
+
+.parallax {
 background-image: url('images/sfondo.jpg');
-min-height: 100%;
+min-height: 700px;
 background-position: center;
-background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+
 </style>
 <body>
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Studio 54</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
+    <a href="" class="w3-bar-item w3-button">Studio 54</a>
     <div class="w3-right w3-hide-small">
-      <a href="#chi_siamo" class="w3-bar-item w3-button">Chi siamo</a>
-      <a href="prodotti1.html" class="w3-bar-item w3-button">I nostri prodotti</a>
-      <a href="#dove_siamo" class="w3-bar-item w3-button">Dove siamo</a>
+      <a href="#contattaci"class="w3-bar-item w3-button">Contattaci</a>
       <a href="https://www.google.com/search?q=studio+54+belluno&rlz=1C1CHBF_itIT875IT875&oq=studio&aqs=chrome.0.69i59l2j69i57j69i59j0l2j69i60l2.8121j0j7&sourceid=chrome&ie=UTF-8#lrd=0x477907b02909f419:0x877799b88f29774,1,,," target="_blank" class="w3-bar-item w3-button">Recensioni</a>
+      <a href="http://studio54.epizy.com/prodotti" class="w3-bar-item w3-button">I nostri prodotti</a>
+
     </div>
     </div>
   </div>
 
 </div>
-<header class="w3-display-container w3-wide bgimg" id="home">
-  <div class="w3-display-middle w3-border w3-wide w3-text-white w3-center">
-    <h1 class="w3-jumbo">Riapertura il</h1>
-    <h2><b>18/05/2020</b></h2>
-  </div>
+  <div class="parallax" id="home"></div>  
 </header>
+ 
 
 
-<div class="w3-content" style="max-width:1100px">
+
+<div class="w3-content" style="max-width:1100px" id="contattaci">
 	<!-- Chi siamo -->
-	<div class="w3-row w3-padding-64" id="chi_siamo">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="images/sfondo2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+	<div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+    <img src="images/sfondo11.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="400">
+        <div class="w3-display-middle  w3-border w3-wide w3-text-white w3-center ">
+            <h1 class="w3-jumbo">Siamo aperti </h1>
+             <h1 class="w3-jumbo">da Mercoledì al Venerdì</h1>
+            <h1 class="w3-jumbo">dalle 07:00 alle 18:00 </h1>
+             <h1 class="w3-jumbo">e il Sabato</h1>
+            <h1 class="w3-jumbo">dalle 07:00 alle 17:00 </h1>
+            
+        </div>
     </div>
 
-    <div class="w3-col m6 w3-padding-large">
+    <!--Contattaci-->
+    <div>
+     <div class="w3-col m6 w3-padding-large" >
+      <div class="w3-border w3-wide w3-text-black w3-center background_color_lb">
+      <h1 class="w3-center">Contattaci</h1><br>
+      <a href="tel:+39-0437-27159">+39-0437-27159</a>
+      </p>
+    </div>
+  </div>
+
+
+    <div class="w3-col m6 w3-padding-large" >
       <div class="w3-border w3-wide w3-text-black w3-center background_color_lb">
       <h1 class="w3-center">Chi siamo</h1><br>
-      <p class="w3-large">Lo Studio 54 Fabio è il parrucchiere unisex che rinnova il tuo stile, regalandoti un nuovo colore o un nuovo taglio, anche personalizzato</p>
+      <p class="w3-large">Lo Studio 54 Fabio è il parrucchiere unisex che rinnova il tuo stile, regalandoti un nuovo colore o un nuovo taglio, anche personalizzato. 
+          Seguici su <a href="https://www.facebook.com/Parrucchiere-Studio-54-Fabio-785278714860315/" target="_blank">Facebook</a>
+      </p>
     </div>
   </div>
 
   <!-- Dove siamo -->
-	<div class="w3-row w3-padding-64" id="dove_siamo">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
+	<div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
       <div class="w3-border w3-wide w3-text-black w3-center background_color_lb">
       <h1 class="w3-center">Dove siamo</h1><br>
       <p class="w3-large">Via Giuseppe Garibaldi, 28, 32100 Belluno BL</p>
@@ -88,7 +125,7 @@ background-size: cover;
   <script src ="detectmobile.js"></script>
   <script>
    if(isMobile == true){
-    header('Location: http://192.168.0.106/telefono.html');
+    header('Location: http://studio54.epizy.com/telefono.html');
    }
   </script>
 </body>
